@@ -1,0 +1,38 @@
+{
+  "name": "Pomni AI",
+  "version": "2.0.0",
+  "description": "Simple WhatsApp bot, Modified by VENi - youssefv",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "pomni-ai"
+  ],
+  "author": "VENi - youssefv",
+  "license": "MIT",
+  "dependencies": {
+    "browsers": "^1.0.2",
+    "cacheable": "^2.3.5",
+    "cheerio": "1.0.0-rc.12",
+    "chokidar": "^5.0.0",
+    "chrome": "^0.1.0",
+    "file-type": "^18.0.0",
+    "form-data": "^4.0.5",
+    "install": "^0.13.0",
+    "meowsab": "https://github.com/deveni0/ws/tarball/main",
+    "npx": "^10.2.2",
+    "puppeteer": "^25.10.0",
+    "qs": "*",
+    "sharp": "https://github.com/deveni0/sharp-tmx/tarball/main",
+    "wa-sticker-formatter": "^4.3.2"
+  },
+  "overrides": {
+    "sharp": "https://github.com/deveni0/sharp-tmx/tarball/main",
+    "*": {
+      "sharp": "https://github.com/deveni0/sharp-tmx/tarball/main"
+    }
+  }
+}
